@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+
+}
+
+/*NAV-BAR*/
+.navigation-container {
+    width: 100%;
+    background-image: url(https://www.zoochat.com/community/media/butterfly-pupae-papillorama-07.4767/full?d=0);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border-bottom: 2px solid #000000;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    margin-left: 70px;
+    padding-top: 10px;
+
+}
+
+.navigation-container ul {
+    padding: 40px;
+    margin: 0;
+}
+
+.navigation-container li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navigation-container a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 65px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+/*NAV-BAR*/
+/*============================================================*/
+/*MAIN-CONTENT*/
+
+.main-content-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(56, 56, 56)
+}
+
+.main-content-container p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.column-container {
+    margin-top: 15px;
+    padding: 10px;
+    display: inline-block;
+    /*border-top: 2px solid #ffffff;*/
+    border-bottom: 2px solid #ffffff;
+}
+
+.our-offer {
+    width: 31%;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 3px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.how-we-work-container {
+    width: 31%;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 3px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.shipping-container {
+    display: inline-block;
+    width: 31%;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+.sales-container {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sales-container p {
+    color: #ffffff;
+}
+
+.sale-header h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+
+.image {
+    width: 25%;
+    padding: 0;
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+
+.first-sale-image {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*MAIN-CONTENT*/
+/*===========================================================*/
+/*SOCIAL-MEDIA*/
+
+.social-media-container {
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.social-media-container p {
+    margin: 0;
+    padding: 35px;
+}
+
+.facebook-container {
+    padding: 10px;
+}
+
+.text {
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
+.facebook-logo {
+
+}
+
+.instagram-container {
+    padding: 10px;
+}
+
+/*SOCIAL-MEDIA*/
+/*==========================================================*/
